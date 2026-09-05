@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>菜猪 | Cai Zhu (Veggie Pig) | $菜猪 on BNB</title>
+  <meta name="description" content="Cai Zhu (Veggie Pig) is a beloved meme and one of the most-used stickers in Binance China Telegram. $菜猪 lives on BNB Chain. Buy with BNB." />
+  <meta name="theme-color" content="#F0B90B" />
+  <meta property="og:title" content="菜猪 | Cai Zhu (Veggie Pig) | $菜猪" />
+  <meta property="og:description" content="A beloved meme and one of the most-used stickers in Binance China Telegram. Now on BNB Chain." />
+  <meta property="og:image" content="banner.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="菜猪 | Cai Zhu (Veggie Pig) | $菜猪" />
+  <meta name="twitter:description" content="A beloved meme and one of the most-used stickers in Binance China Telegram. Now on BNB Chain." />
+  <meta name="twitter:image" content="banner.jpg" />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+  <link rel="preload" as="image" href="banner.jpg" />
+  <link rel="preload" as="image" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Nunito:wght@400;600;700;800;900&family=Noto+Sans+SC:wght@400;500;700;900&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            field: { DEFAULT: "#F0B90B", light: "#FCD535", deep: "#C99400", ink: "#0B0E11" },
+            pig: {
+              skin: "#FFC4C8",
+              blush: "#FF9AA8",
+              snout: "#E57A86",
+              deep: "#C85A68",
+              cream: "#FFF6F4",
+              ink: "#1A120F",
+            },
+          },
+          fontFamily: {
+            pig: ['"Cherry Bomb One"', '"ZCOOL KuaiLe"', "cursive"],
+            cn: ['"ZCOOL KuaiLe"', '"Noto Sans SC"', "cursive"],
+            sans: ["Nunito", '"Noto Sans SC"', "ui-sans-serif", "system-ui"],
+          },
+          boxShadow: {
+            sticker: "7px 7px 0 0 #1A120F",
+            stickerHover: "3px 3px 0 0 #1A120F",
+            snout: "0 10px 0 0 #C85A68",
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    :root {
+      --ca: "TBA";
+      --field: #f0b90b;
+      --pig-ink: #1a120f;
+      --pig-skin: #ffc4c8;
+      --pig-snout: #e57a86;
+      --buy: "https://flap.sh/bnb/TBA";
+      --chart: "https://dexscreener.com/bsc/TBA";
+    }
+
+    html { scroll-behavior: smooth; scroll-padding-top: 92px; }
+
+    body {
+      font-family: Nunito, "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+      color: var(--pig-ink);
+      background-color: var(--field);
+      background-image:
+        radial-gradient(ellipse 90% 55% at 8% -10%, #ffe27a 0%, transparent 52%),
+        radial-gradient(ellipse 70% 50% at 100% 0%, #e8a800 0%, transparent 48%),
+        radial-gradient(ellipse 60% 40% at 50% 110%, #fcd535 0%, transparent 50%),
+        url("data:image/svg+xml,%3Csvg width='72' height='72' viewBox='0 0 72 72' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%230B0E11' stroke-width='1.4' opacity='0.08'%3E%3Cpath d='M36 6 L66 36 L36 66 L6 36 Z'/%3E%3Cpath d='M36 22 L50 36 L36 50 L22 36 Z'/%3E%3C/g%3E%3Cpath d='M36 28 L44 36 L36 44 L28 36 Z' fill='%230B0E11' fill-opacity='0.05'/%3E%3C/svg%3E");
+      background-attachment: fixed;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.16;
+      background-image: url("data:image/svg+xml,%3Csvg width='180' height='140' viewBox='0 0 180 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23C85A68' stroke-width='3' opacity='0.55'%3E%3Cellipse cx='50' cy='72' rx='28' ry='20'/%3E%3Cellipse cx='40' cy='72' rx='4' ry='7' fill='%23C85A68'/%3E%3Cellipse cx='60' cy='72' rx='4' ry='7' fill='%23C85A68'/%3E%3Cellipse cx='140' cy='38' rx='22' ry='16'/%3E%3Cellipse cx='132' cy='38' rx='3.2' ry='5.5' fill='%23C85A68'/%3E%3Cellipse cx='148' cy='38' rx='3.2' ry='5.5' fill='%23C85A68'/%3E%3C/g%3E%3C/svg%3E");
+      background-size: 180px 140px;
+    }
+
+    .content { position: relative; z-index: 1; }
+
+    ::selection { background: #ff9aa8; color: #1a120f; }
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-track { background: #f0b90b; }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #ffc4c8, #e57a86);
+      border-radius: 99px;
+      border: 2px solid #1a120f;
+    }
+
+    .snout-cursor, .snout-cursor * {
+      cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cellipse cx='16' cy='18' rx='12' ry='9' fill='%23E57A86' stroke='%231A120F' stroke-width='2'/%3E%3Cellipse cx='11' cy='18' rx='2.2' ry='3.2' fill='%231A120F'/%3E%3Cellipse cx='21' cy='18' rx='2.2' ry='3.2' fill='%231A120F'/%3E%3C/svg%3E") 8 10, auto;
+    }
+    a, button, [role="button"] {
+      cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cellipse cx='16' cy='18' rx='12' ry='9' fill='%23FFC4C8' stroke='%231A120F' stroke-width='2'/%3E%3Cellipse cx='11' cy='18' rx='2.2' ry='3.2' fill='%231A120F'/%3E%3Cellipse cx='21' cy='18' rx='2.2' ry='3.2' fill='%231A120F'/%3E%3C/svg%3E") 8 10, pointer;
+    }
+
+    .sticker {
+      background: #fff6f4;
+      border: 4px solid #1a120f;
+      box-shadow: 7px 7px 0 0 #1a120f;
+    }
+    .sticker-pink {
+      background: #ffc4c8;
+      border: 4px solid #1a120f;
+      box-shadow: 7px 7px 0 0 #1a120f;
+    }
+    .sticker-snout {
+      background: #e57a86;
+      border: 4px solid #1a120f;
+      box-shadow: 7px 7px 0 0 #1a120f;
+    }
+    .sticker-ink {
+      background: #1a120f;
+      border: 4px solid #1a120f;
+      box-shadow: 7px 7px 0 0 #c85a68;
+      color: #fff6f4;
+    }
+
+    .pig-card { position: relative; overflow: visible; }
+    .pig-card .ear {
+      position: absolute;
+      top: -20px;
+      width: 30px;
+      height: 34px;
+      background: #ffc4c8;
+      border: 4px solid #1a120f;
+      border-bottom: none;
+      border-radius: 18px 18px 8px 8px;
+      z-index: 2;
+    }
+    .pig-card .ear::after {
+      content: "";
+      position: absolute;
+      inset: 7px 7px 8px;
+      background: #f4a0a8;
+      border-radius: 50%;
+    }
+    .pig-card .ear.left { left: 26px; transform: rotate(-16deg); }
+    .pig-card .ear.right { right: 26px; transform: rotate(16deg); }
+
+    .btn-sticker {
+      border: 4px solid #1a120f;
+      box-shadow: 6px 6px 0 0 #1a120f;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-sticker:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 8px 8px 0 0 #1a120f;
+    }
+    .btn-sticker:active {
+      transform: translate(3px, 3px);
+      box-shadow: 2px 2px 0 0 #1a120f;
+    }
+    .btn-sticker.shine::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.45) 50%, transparent 60%);
+      transform: translateX(-120%);
+      animation: shine 3.4s ease-in-out infinite;
+    }
+
+    .marquee-wrap { overflow: hidden; }
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee 26s linear infinite;
+    }
+    .marquee-wrap:hover .marquee-track { animation-play-state: paused; }
+
+    .float-pig { animation: floaty 4.2s ease-in-out infinite; }
+    .wiggle { animation: wiggle 2.8s ease-in-out infinite; }
+    .cloud { animation: drift 22s linear infinite; }
+    .cloud.delay { animation-duration: 28s; animation-delay: -8s; }
+
+    .speech {
+      position: relative;
+      background: #fff6f4;
+      border: 4px solid #1a120f;
+      border-radius: 22px;
+      box-shadow: 5px 5px 0 0 #1a120f;
+    }
+    .speech::after {
+      content: "";
+      position: absolute;
+      left: 28px;
+      bottom: -16px;
+      width: 22px;
+      height: 22px;
+      background: #fff6f4;
+      border-right: 4px solid #1a120f;
+      border-bottom: 4px solid #1a120f;
+      transform: rotate(45deg);
+    }
+
+    .snout-badge {
+      width: 78px;
+      height: 54px;
+      background: #e57a86;
+      border: 4px solid #1a120f;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      box-shadow: 4px 4px 0 0 #1a120f;
+    }
+    .snout-badge i {
+      width: 9px;
+      height: 14px;
+      background: #1a120f;
+      border-radius: 50%;
+      display: block;
+    }
+
+    .rainbow-bar {
+      height: 12px;
+      background: linear-gradient(90deg, #ff6b6b 0%, #ffd93d 25%, #6bcb77 50%, #4d96ff 75%, #c77dff 100%);
+      border-top: 3px solid #1a120f;
+      border-bottom: 3px solid #1a120f;
+    }
+
+    .chart-frame iframe {
+      width: 100%;
+      height: 620px;
+      border: 0;
+      display: block;
+      background: #0b0e11;
+    }
+
+    #toast {
+      opacity: 0;
+      transform: translate(-50%, 16px);
+      pointer-events: none;
+      transition: opacity 0.25s ease, transform 0.25s ease;
+    }
+    #toast.show {
+      opacity: 1;
+      transform: translate(-50%, 0);
+      pointer-events: auto;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: reveal 0.7s ease forwards;
+    }
+    .reveal.d1 { animation-delay: 0.08s; }
+    .reveal.d2 { animation-delay: 0.16s; }
+    .reveal.d3 { animation-delay: 0.24s; }
+    .reveal.d4 { animation-delay: 0.32s; }
+
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0) rotate(-4deg); }
+      50% { transform: translateY(-12px) rotate(4deg); }
+    }
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(-3deg); }
+      50% { transform: rotate(3deg); }
+    }
+    @keyframes shine {
+      0%, 58% { transform: translateX(-120%); }
+      82%, 100% { transform: translateX(120%); }
+    }
+    @keyframes drift {
+      from { transform: translateX(-20%); }
+      to { transform: translateX(120%); }
+    }
+    @keyframes reveal {
+      to { opacity: 1; transform: none; }
+    }
+
+    @media (max-width: 768px) {
+      .chart-frame iframe { height: 460px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .marquee-track, .float-pig, .wiggle, .cloud, .btn-sticker.shine::after, .reveal {
+        animation: none !important;
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body class="snout-cursor antialiased">
+  <div class="content">
+    <header class="sticky top-0 z-50 border-b-4 border-pig-ink bg-field/90 backdrop-blur-md">
+      <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3">
+        <a href="#top" class="flex min-w-0 items-center gap-3">
+          <img src="logo.png" alt="菜猪 logo" class="h-12 w-12 rounded-full border-4 border-pig-ink object-cover shadow-sticker" />
+          <div class="leading-none">
+            <p class="font-cn text-xl tracking-wide sm:text-2xl">菜猪</p>
+            <p class="mt-0.5 text-[11px] font-extrabold uppercase tracking-[0.22em] text-pig-ink/70">$菜猪</p>
+          </div>
+        </a>
+
+        <nav class="flex items-center gap-2 sm:gap-3">
+          <a href="#how-to-buy" class="hidden text-sm font-extrabold text-pig-ink hover:text-pig-deep md:inline">How to Buy</a>
+          <a href="#chart" class="hidden text-sm font-extrabold text-pig-ink hover:text-pig-deep md:inline">Chart</a>
+          <a
+            href="https://dexscreener.com/bsc/TBA"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-sticker inline-flex h-11 items-center rounded-full bg-field px-3 text-xs font-black uppercase tracking-wide text-pig-ink sm:text-sm"
+          >Chart</a>
+          <a
+            href="https://flap.sh/bnb/TBA"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-sticker shine inline-flex h-11 items-center rounded-full bg-pig-blush px-3 text-xs font-black uppercase tracking-wide text-pig-ink sm:px-4 sm:text-sm"
+          >Buy Now</a>
+          <a
+            href="https://x.com/VeggiePigX"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-sticker inline-flex h-11 w-11 items-center justify-center overflow-hidden rounded-full bg-pig-ink"
+            aria-label="菜猪 on X"
+          >
+            <img src="x.png" alt="" class="h-5 w-5 object-contain" />
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="marquee-wrap border-b-4 border-pig-ink bg-pig-ink text-pig-skin" aria-hidden="true">
+      <div class="marquee-track py-2 text-[11px] font-black uppercase tracking-[0.28em]">
+        <span class="px-5">菜猪</span><span class="px-5">$菜猪</span><span class="px-5">Cai Zhu</span><span class="px-5">Veggie Pig</span><span class="px-5">Binance China Sticker</span><span class="px-5">BNB Chain</span><span class="px-5">Oink</span>
+        <span class="px-5">菜猪</span><span class="px-5">$菜猪</span><span class="px-5">Cai Zhu</span><span class="px-5">Veggie Pig</span><span class="px-5">Binance China Sticker</span><span class="px-5">BNB Chain</span><span class="px-5">Oink</span>
+        <span class="px-5">菜猪</span><span class="px-5">$菜猪</span><span class="px-5">Cai Zhu</span><span class="px-5">Veggie Pig</span><span class="px-5">Binance China Sticker</span><span class="px-5">BNB Chain</span><span class="px-5">Oink</span>
+        <span class="px-5">菜猪</span><span class="px-5">$菜猪</span><span class="px-5">Cai Zhu</span><span class="px-5">Veggie Pig</span><span class="px-5">Binance China Sticker</span><span class="px-5">BNB Chain</span><span class="px-5">Oink</span>
+      </div>
+    </div>
+
+    <main id="top">
+      <section class="relative mx-auto max-w-6xl overflow-hidden px-4 pb-8 pt-8 sm:pt-12">
+        <div class="pointer-events-none absolute -left-8 top-8 h-16 w-40 rounded-full bg-white/70 blur-[1px] cloud" aria-hidden="true"></div>
+        <div class="pointer-events-none absolute right-10 top-24 h-12 w-28 rounded-full bg-white/60 blur-[1px] cloud delay" aria-hidden="true"></div>
+
+        <div class="sticker relative overflow-hidden rounded-[28px]">
+          <img
+            src="banner.jpg"
+            alt="Cai Zhu (Veggie Pig) on the grass, flying in a cape, and eating ice cream on the beach"
+            class="h-[220px] w-full object-cover sm:h-[340px] lg:h-[420px]"
+          />
+          <img
+            src="logo.png"
+            alt=""
+            class="float-pig absolute bottom-4 left-4 h-20 w-20 rounded-full border-4 border-pig-ink object-cover shadow-sticker sm:bottom-6 sm:left-6 sm:h-28 sm:w-28"
+          />
+          <div class="speech absolute right-3 top-3 hidden max-w-[220px] px-3 py-2 sm:block">
+            <p class="font-cn text-sm leading-tight text-pig-ink">币安中国电报最爱贴纸</p>
+            <p class="mt-1 text-[11px] font-extrabold uppercase tracking-wider text-pig-snout">oink from telegram</p>
+          </div>
+        </div>
+        <div class="rainbow-bar rounded-b-none"></div>
+
+        <div class="mt-8 grid items-start gap-8 lg:grid-cols-[1.15fr_0.85fr]">
+          <div class="reveal">
+            <p class="inline-flex items-center gap-2 rounded-full border-4 border-pig-ink bg-pig-skin px-3 py-1 text-[11px] font-black uppercase tracking-[0.22em] shadow-sticker">
+              BNB Smart Chain
+            </p>
+            <h1 class="mt-4 font-cn text-7xl leading-[0.85] text-pig-ink sm:text-8xl lg:text-9xl">菜猪</h1>
+            <p class="mt-3 font-pig text-2xl text-pig-deep sm:text-4xl">Cai Zhu · Veggie Pig</p>
+            <p class="mt-2 font-cn text-3xl text-pig-ink">$菜猪</p>
+            <p class="mt-5 max-w-xl text-base font-bold leading-relaxed text-pig-ink/80 sm:text-lg">
+              Cai Zhu (Veggie Pig) is a beloved meme and one of the most-used stickers in Binance China Telegram.
+              The chubby pink pig hopped from group chats onto BNB Chain — veggie, piggy, and fully on-chain.
+            </p>
+
+            <div class="mt-7 flex flex-wrap items-center gap-3">
+              <a
+                href="https://flap.sh/bnb/TBA"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-sticker shine inline-flex items-center rounded-full bg-pig-blush px-7 py-3 font-pig text-lg tracking-wide text-pig-ink"
+              >Buy Now</a>
+              <a
+                href="https://dexscreener.com/bsc/TBA"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-sticker inline-flex items-center rounded-full bg-field px-7 py-3 font-pig text-lg tracking-wide text-pig-ink"
+              >Chart</a>
+              <a
+                href="https://x.com/VeggiePigX"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-sticker inline-flex items-center gap-2 rounded-full bg-pig-ink px-5 py-3 text-sm font-black text-white"
+              >
+                <img src="x.png" alt="" class="h-4 w-4 object-contain" />
+                Twitter
+              </a>
+            </div>
+          </div>
+
+          <aside class="pig-card sticker-pink reveal d2 rounded-[32px] p-5 sm:p-6" aria-label="Contract">
+            <span class="ear left"></span>
+            <span class="ear right"></span>
+            <div class="flex items-start justify-between gap-3 pt-3">
+              <div>
+                <p class="text-[11px] font-black uppercase tracking-[0.28em] text-pig-ink/70">Sticker ID</p>
+                <p class="font-cn mt-1 text-3xl">菜猪护照</p>
+                <p class="text-sm font-extrabold text-pig-deep">Veggie Pig Passport</p>
+              </div>
+              <img src="logo.png" alt="" class="h-16 w-16 rounded-full border-4 border-pig-ink object-cover" />
+            </div>
+
+            <dl class="mt-4 grid grid-cols-2 gap-2 text-sm font-extrabold">
+              <div class="rounded-2xl border-4 border-pig-ink bg-pig-cream px-3 py-2">
+                <dt class="text-[10px] uppercase tracking-wider text-pig-ink/50">Name</dt>
+                <dd class="font-cn text-xl">菜猪</dd>
+              </div>
+              <div class="rounded-2xl border-4 border-pig-ink bg-pig-cream px-3 py-2">
+                <dt class="text-[10px] uppercase tracking-wider text-pig-ink/50">Symbol</dt>
+                <dd class="font-cn text-xl">$菜猪</dd>
+              </div>
+              <div class="rounded-2xl border-4 border-pig-ink bg-pig-cream px-3 py-2">
+                <dt class="text-[10px] uppercase tracking-wider text-pig-ink/50">Chain</dt>
+                <dd>BNB</dd>
+              </div>
+              <div class="rounded-2xl border-4 border-pig-ink bg-pig-cream px-3 py-2">
+                <dt class="text-[10px] uppercase tracking-wider text-pig-ink/50">Pay with</dt>
+                <dd>BNB</dd>
+              </div>
+            </dl>
+
+            <p class="mt-4 text-[11px] font-black uppercase tracking-[0.22em] text-pig-ink/70">Contract address</p>
+            <button
+              id="copy-ca"
+              type="button"
+              class="btn-sticker mt-2 flex w-full items-center justify-between gap-3 rounded-2xl bg-pig-ink px-3 py-3 text-left"
+              aria-label="Copy contract address"
+            >
+              <span class="flex items-center gap-3 min-w-0">
+                <span class="snout-badge !h-10 !w-14 !gap-2 !shadow-none" aria-hidden="true"><i></i><i></i></span>
+                <span id="ca-display" class="truncate font-mono text-lg font-black text-pig-skin">TBA</span>
+              </span>
+              <span class="inline-flex shrink-0 items-center gap-1 rounded-full bg-pig-blush px-3 py-1 text-[11px] font-black uppercase tracking-wide text-pig-ink">
+                <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true">
+                  <rect x="9" y="9" width="11" height="11" rx="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+              </span>
+            </button>
+            <p class="mt-2 text-xs font-bold text-pig-ink/70">Tap to copy the available CA.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="mx-auto max-w-6xl px-4 py-8 sm:py-12">
+        <div class="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p class="text-xs font-black uppercase tracking-[0.32em] text-pig-ink/70">The sticker</p>
+            <h2 class="mt-2 font-cn text-4xl sm:text-6xl">从贴纸到链上</h2>
+            <p class="font-pig mt-1 text-xl text-pig-deep sm:text-2xl">From chat spam to BNB</p>
+          </div>
+          <p class="max-w-md text-sm font-bold leading-relaxed text-pig-ink/80 sm:text-right">
+            Cai Zhu (Veggie Pig) is a beloved meme and one of the most-used stickers in Binance China Telegram.
+          </p>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <article class="pig-card sticker reveal rounded-[28px] p-5 rotate-1">
+            <span class="ear left"></span><span class="ear right"></span>
+            <p class="pt-3 font-pig text-5xl text-pig-snout">01</p>
+            <h3 class="mt-2 font-cn text-2xl">最爱贴纸</h3>
+            <p class="mt-2 text-sm font-bold leading-relaxed text-pig-ink/75">
+              One of the most-used stickers in Binance China Telegram. The pig is already in the chat — now it is on the chain.
+            </p>
+          </article>
+          <article class="pig-card sticker-pink reveal d1 rounded-[28px] p-5 -rotate-1">
+            <span class="ear left"></span><span class="ear right"></span>
+            <p class="pt-3 font-pig text-5xl text-pig-deep">02</p>
+            <h3 class="mt-2 font-cn text-2xl">菜 + 猪</h3>
+            <p class="mt-2 text-sm font-bold leading-relaxed text-pig-ink/80">
+              菜 is veggie — and the humble noob. 猪 is the pig. Together they are Cai Zhu: cute, chaotic, and always in the room.
+            </p>
+          </article>
+          <article class="pig-card sticker reveal d2 rounded-[28px] p-5 rotate-2">
+            <span class="ear left"></span><span class="ear right"></span>
+            <p class="pt-3 font-pig text-5xl text-pig-snout">03</p>
+            <h3 class="mt-2 font-cn text-2xl">BNB 原生</h3>
+            <p class="mt-2 text-sm font-bold leading-relaxed text-pig-ink/75">
+              Born for the yellow chain. Buy $菜猪 with BNB. Same sticker energy, now with a ticker.
+            </p>
+          </article>
+          <article class="pig-card sticker-snout reveal d3 rounded-[28px] p-5 -rotate-2 text-pig-cream">
+            <span class="ear left"></span><span class="ear right"></span>
+            <p class="pt-3 font-pig text-5xl text-pig-cream">04</p>
+            <h3 class="mt-2 font-cn text-2xl">Oink oink</h3>
+            <p class="mt-2 text-sm font-bold leading-relaxed text-pig-cream/90">
+              Spam it when you are early, late, cooking, or cooked. Veggie Pig does not judge. Veggie Pig oinks.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="how-to-buy" class="mx-auto max-w-6xl px-4 py-8 sm:py-12">
+        <div class="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p class="text-xs font-black uppercase tracking-[0.32em] text-pig-ink/70">4 steps · pay with BNB</p>
+            <h2 class="mt-2 font-cn text-4xl sm:text-6xl">How to Buy</h2>
+            <p class="font-pig mt-1 text-xl text-pig-deep">Get $菜猪 in four oinks</p>
+          </div>
+          <p class="max-w-sm text-sm font-bold text-pig-ink/75 sm:text-right">
+            Buy $菜猪 using BNB on Flap. Wallet, BNB, Flap, swap. That is the whole sty.
+          </p>
+        </div>
+
+        <ol class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <li class="pig-card sticker-pink rounded-[28px] p-5">
+            <span class="ear left"></span><span class="ear right"></span>
+            <div class="flex items-center justify-between pt-2">
+              <span class="snout-badge" aria-hidden="true"><i></i><i></i></span>
+              <span class="font-pig text-4xl">01</span>
+            </div>
+            <h3 class="mt-4 font-cn text-2xl">Get a wallet</h3>
+            <p class="mt-2 text-sm font-bold leading-relaxed text-pig-ink/80">
+              Install MetaMask or Trust Wallet. Switch the network to BNB Smart Chain so the pig can find you.
+            </p>
+          </li>
+          <li class="pig-card sticker rounded-[28px] p-5">
+            <span class="ear left"></span><span class="ear right"></span>
+            <div class="flex items-center justify-between pt-2">
+              <span class="snout-badge" aria-hidden="true"><i></i><i></i></span>
+              <span class="font-pig text-4xl">02</span>
+            </div>
+            <h3 class="mt-4 font-cn text-2xl">Get BNB</h3>
+            <p class="mt-2 text-sm font-bold leading-relaxed text-pig-ink/75">
+              Buy BNB and send it to your wallet. You pay the swap with BNB — that is the only feed Veggie Pig needs.
+            </p>
+          </li>
+          <li class="pig-card sticker-pink rounded-[28px] p-5">
+            <span class="ear left"></span><span class="ear right"></span>
+            <div class="flex items-center justify-between pt-2">
+              <span class="snout-badge" aria-hidden="true"><i></i><i></i></span>
+              <span class="font-pig text-4xl">03</span>
+            </div>
+            <h3 class="mt-4 font-cn text-2xl">Open Flap</h3>
+            <p class="mt-2 text-sm font-bold leading-relaxed text-pig-ink/80">
+              Go to flap.sh on BNB. Connect your wallet. Paste the $菜猪 CA if asked, then get ready to oink.
+            </p>
+          </li>
+          <li class="pig-card sticker-ink rounded-[28px] p-5">
+            <span class="ear left"></span><span class="ear right"></span>
+            <div class="flex items-center justify-between pt-2">
+              <span class="snout-badge !bg-pig-blush" aria-hidden="true"><i></i><i></i></span>
+              <span class="font-pig text-4xl text-pig-blush">04</span>
+            </div>
+            <h3 class="mt-4 font-cn text-2xl text-pig-skin">Swap</h3>
+            <p class="mt-2 text-sm font-bold leading-relaxed text-pig-cream/80">
+              Swap BNB for $菜猪. Confirm the trade. The Binance China sticker is now in your wallet.
+            </p>
+          </li>
+        </ol>
+
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a
+            href="https://flap.sh/bnb/TBA"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-sticker shine inline-flex items-center rounded-full bg-pig-blush px-7 py-3 font-pig text-lg text-pig-ink"
+          >Buy Now</a>
+          <button
+            id="copy-ca-2"
+            type="button"
+            class="btn-sticker inline-flex items-center rounded-full bg-pig-ink px-6 py-3 text-sm font-black text-pig-skin"
+          >Copy CA</button>
+          <p class="text-sm font-bold text-pig-ink/70">Opens flap.sh · BNB pair · CA: TBA</p>
+        </div>
+      </section>
+
+      <section id="chart" class="mx-auto max-w-6xl px-4 py-8 sm:py-14">
+        <div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p class="text-xs font-black uppercase tracking-[0.32em] text-pig-ink/70">Dexscreener</p>
+            <h2 class="mt-2 font-cn text-4xl sm:text-6xl">Chart</h2>
+            <p class="font-pig mt-1 text-xl text-pig-deep">Watch the pig run</p>
+          </div>
+          <a
+            href="https://dexscreener.com/bsc/TBA"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-sticker inline-flex h-12 w-fit items-center rounded-full bg-field px-5 font-pig text-sm tracking-wide text-pig-ink"
+          >Open Dexscreener</a>
+        </div>
+
+        <div class="pig-card sticker overflow-hidden rounded-[28px] p-2 sm:p-3">
+          <span class="ear left"></span><span class="ear right"></span>
+          <div class="chart-frame mt-4 overflow-hidden rounded-[20px] border-4 border-pig-ink bg-field-ink">
+            <iframe
+              title="菜猪 Dexscreener chart"
+              src="https://dexscreener.com/bsc/TBA?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartDefaultOnMobile=1&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"
+              allow="clipboard-write"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t-4 border-pig-ink bg-pig-ink text-pig-cream">
+      <div class="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 sm:flex-row sm:items-center sm:justify-between">
+        <div class="flex items-center gap-3">
+          <img src="logo.png" alt="" class="h-14 w-14 rounded-full border-4 border-pig-blush object-cover" />
+          <div>
+            <p class="font-cn text-2xl text-pig-skin">菜猪</p>
+            <p class="text-sm font-bold text-pig-blush">Cai Zhu (Veggie Pig) · $菜猪 · BNB Chain</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="https://flap.sh/bnb/TBA" target="_blank" rel="noopener noreferrer" class="btn-sticker !shadow-[4px_4px_0_0_#e57a86] inline-flex rounded-full bg-pig-blush px-5 py-2 text-sm font-black text-pig-ink">Buy Now</a>
+          <a href="https://dexscreener.com/bsc/TBA" target="_blank" rel="noopener noreferrer" class="btn-sticker !shadow-[4px_4px_0_0_#e57a86] inline-flex rounded-full bg-field px-5 py-2 text-sm font-black text-pig-ink">Chart</a>
+          <a href="https://x.com/VeggiePigX" target="_blank" rel="noopener noreferrer" class="btn-sticker !shadow-[4px_4px_0_0_#e57a86] inline-flex items-center gap-2 rounded-full bg-black px-4 py-2 text-sm font-black text-white">
+            <img src="x.png" alt="" class="h-4 w-4 object-contain" />
+            @VeggiePigX
+          </a>
+        </div>
+      </div>
+      <div class="border-t-4 border-pig-snout/40">
+        <p class="mx-auto max-w-6xl px-4 py-4 text-xs font-bold leading-relaxed text-pig-cream/55">
+          Cai Zhu (Veggie Pig) is a beloved meme and one of the most-used stickers in Binance China Telegram.
+          $菜猪 is a community meme coin. Not financial advice. Fan meme — not affiliated with Binance.
+          CA: <button type="button" id="copy-ca-3" class="underline decoration-pig-blush underline-offset-2">TBA</button>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <div id="toast" class="fixed bottom-6 left-1/2 z-[80] sticker-pink flex items-center gap-3 rounded-full px-4 py-3 font-black text-pig-ink" role="status" aria-live="polite">
+    <span class="snout-badge !h-9 !w-12 !gap-1.5 !shadow-none" aria-hidden="true"><i></i><i></i></span>
+    <span id="toast-msg">Oink! CA copied.</span>
+  </div>
+
+  <script>
+    const CA = "TBA";
+    let toastTimer;
+
+    async function copyCA() {
+      try {
+        await navigator.clipboard.writeText(CA);
+      } catch {
+        const t = document.createElement("textarea");
+        t.value = CA;
+        t.setAttribute("readonly", "");
+        t.style.position = "fixed";
+        t.style.left = "-9999px";
+        document.body.appendChild(t);
+        t.select();
+        document.execCommand("copy");
+        t.remove();
+      }
+      const toast = document.getElementById("toast");
+      const msg = document.getElementById("toast-msg");
+      msg.textContent = "Oink! CA copied: " + CA;
+      toast.classList.add("show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(function () { toast.classList.remove("show"); }, 2200);
+    }
+
+    ["copy-ca", "copy-ca-2", "copy-ca-3"].forEach(function (id) {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener("click", copyCA);
+    });
+  </script>
+</body>
+</html>
